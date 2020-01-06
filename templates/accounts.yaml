@@ -322,7 +322,7 @@ Resources:
       LoginProfile:
         Password: !Ref InitNewUserPassword
         PasswordResetRequired: true
- CelgeneAnnotatorServiceUser:
+  CelgeneAnnotatorServiceUser:
     Type: 'AWS::IAM::User'
     Properties:
       ManagedPolicyArns:
